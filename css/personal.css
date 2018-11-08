@@ -13,6 +13,10 @@ p {
   color: black;
 }
 
+td {
+  font-size: 14.5px;
+}
+
 .logo {
   color: white !important;
   font-size: 30px;
@@ -33,7 +37,7 @@ p {
 
 .has-same-height .card {
   height: 430px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .is-backgrounded {
@@ -56,6 +60,15 @@ p {
   font-weight: bold;
 }
 
+.table__wrapper {
+  overflow-x: auto;
+}
+
+.pricing__table {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .skills-content .media {
   margin: 0 !important;
   padding: 4px !important;
@@ -64,6 +77,10 @@ p {
 
 .skills-content .progress {
   height: 4px !important;
+}
+
+.skill-data {
+  font-size: 14.5px;
 }
 
 .custom-tags {
