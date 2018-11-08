@@ -19,6 +19,8 @@ p {
   margin-left: 30%;
 }
 
+/*css  for element in hero at top of the size*/
+
 #hero_link {
   color: hsl(0, 0%, 21%);
 }
@@ -28,8 +30,9 @@ p {
 }
 
 /* set the height for the about you container*/
+
 .has-same-height .card {
-  height: 410px;
+  height: 430px;
   overflow: hidden;
 }
 
@@ -45,8 +48,7 @@ p {
   text-align: center;
 }
 
-.table-profile td,
-th {
+.table-profile td, th {
   border: none !important;
 }
 
