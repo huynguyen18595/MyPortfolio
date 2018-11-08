@@ -34,7 +34,7 @@ td {
 
 /* set the height for the about you container*/
 .has-same-height .card {
-  height: 430px;
+  height: 400px;
   overflow: hidden;
 }
 
