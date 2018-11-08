@@ -14,7 +14,7 @@ p {
 }
 
 td {
-  font-size: 14.5px;
+  font-size: 16px;
 }
 
 .logo {
@@ -24,7 +24,6 @@ td {
 }
 
 /*css  for element in hero at top of the size*/
-
 #hero_link {
   color: hsl(0, 0%, 21%);
 }
@@ -34,10 +33,9 @@ td {
 }
 
 /* set the height for the about you container*/
-
 .has-same-height .card {
   height: 430px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .is-backgrounded {
