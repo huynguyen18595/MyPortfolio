@@ -1,6 +1,6 @@
 body {
   font-family: 'Love Ya Like A Sister', cursive;
-  background-color: white;
+  background-color: #f9fbff;
   /*grey color in bulma framework*/
 }
 
@@ -20,7 +20,6 @@ td {
 .logo {
   color: white !important;
   font-size: 30px;
-  margin-left: 30%;
 }
 
 /*css  for element in hero at top of the size*/
@@ -43,7 +42,7 @@ td {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid hsl(0, 0%, 77%);
 }
 
 .card-content h3 {
@@ -93,6 +92,17 @@ td {
 
 .section-heading {
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 6em;
+  margin-top: 90px;
+}
+
+.footer-fixed {
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: white;
+  text-align: center;
 }
