@@ -48,7 +48,6 @@ img {
 
 .fp-controlArrow.fp-prev {
   border-color: transparent hsl(0, 0%, 71%) transparent transparent;
-  margin-left: 40px;
 }
 
 .fp-controlArrow.fp-next {
