@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <!-- import google font-->
   <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   <!-- Bulma Version 0.7.2-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
   <!-- fullpage js plugin for css -->
@@ -26,7 +27,10 @@
 
       //initialising fullpage.js in the jQuery way
       $('#fullpage').fullpage({
-        sectionsColor: ['white', '#0798ec', '#fc6c7c', '#fec401'],
+        sectionsColor: ['hsl(0, 0%, 95%)', '#0798ec', '#fc6c7c', '#fec401'],
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'forthPage'],
+        paddingTop: '0px',
+
         navigation: true,
         slidesNavigation: true,
       });
@@ -106,15 +110,14 @@
   <section class="section">
     <div class="columns inline-block">
       <!-- Left hand side description-->
-      <aside class="column is-2">
-        <h1 class="menu-label">Deco1800 - Golden Time</h1>
+      <aside class="column is-2 has-same-height ">
+        <h1 class="menu-label"> Golden Time</h1>
         <p>
           Golden Time is a historical learning web
           platform developed for high school students.
           The purpose of it is to help students to balance
           between studying history and playing.
         </p>
-        <br>
         <p>
           Developed during the Interactive Techonoly
           course at University of Queensland Aus.
@@ -126,94 +129,91 @@
           it means they don't lovetheir country
           enough.
         </p>
-        <br>
         <p>
-          Team: <br>
-          <strong> Steve Nguyen, Shutong Yang, Fenghua Cheng, Sheng Li.</strong>
+          <strong>Team:</strong> <br>
+          Steve Nguyen, Shutong Yang, Fenghua Cheng, Sheng Li
         </p>
-        <br>
         <p>
-          Role <br>
+          <strong>Role:</strong> <br>
           Team Leader, web designer, frontend programmer.
         </p>
         <br>
         <div id="actions">
-          <a id="moveSectionUp" class="button is-dark" href="#">moveSectionUp</a>
-          <a id="moveSectionDown" class="button is-dark" href="#">moveSectionDown</a>
+          <a id="moveSectionUp" class="button is-dark is-outlined" href="#">
+            <span>
+              <i class="fas fa-arrow-circle-left"></i>
+            </span>
+            <br>
+            <span>
+              Backward
+            </span>
+          </a>
+          <a id="moveSectionDown" class="button is-dark is-outlined" href="#">
+            <span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </span>
+            <br>
+            <span>
+              Forward
+            </span>
+          </a>
         </div>
         <br>
         <ul id="menu">
           <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Project Part A</a></li>
           <li data-menuanchor="secondPage"><a href="#secondPage">Project Part B</a></li>
-          <li data-menuanchor="3rdPage"><a href="#3rdPage">Project Part C (Final)</a></li>
+          <li data-menuanchor="thirdPage"><a href="#thirdPage">Project Part C (Final)</a></li>
+          <li data-menuanchor="forthPage"><a href="#forthPage">Portfolio</a></li>
         </ul>
       </aside>
       <!-- right hand side presentation -->
-      <div class="column">
+      <div class="column is-6">
         <div class="container">
           <div id="fullpage">
-            <div class="section" id="firstPage">
-              <div class="">
-                <img src="img/deco1800-logo.png" alt="deco1800 project logo">
+            <!--section 1 of part A -->
+            <div class="section" id="firstPage" data-anchor="firstPage">
+              <div class="slide">
+                <div class="columns">
+                  <div class="column is-1">
+                  </div>
+                  <div class="column">
+                    <div class="tile box is-ancestor">
+                      <div class="tile is-vertical is-4 is-parent">
+                        <div class="tile is-child box">
+                          <img src="img/deco1800-logo.png" alt="deco1800 project logo">
+                        </div>
+                        <div class="tile is-child box">
+                          <p>
+                            In the beginning, we aimed to create a database web platform using resource from Queensland State Library.
+                            The platform is created to give the user more knowledge about the history of Queensland. it was supposed to contain
+                            songs, videos, and photos related to history. After doing background research, We set the production target for our project to high school
+                            students and undergraduate students who really enjoy history and traditional music.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="tile is-parent is-8 has-text-centered">
+                        <div class="tile is-child box ">
+                          <img src="img/homepage-a.png" alt="homepage-a">
+                          <p class="tile is-child is-vertical"><strong>Home Page ( Designed by Steve Nguyen )</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                    <h1>Section 1.1</h1>
+                  </div>
+                  <div class="column is-1">
+                  </div>
+                </div>
               </div>
-              <div class="">
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-
+              <div class="slide">
+                <h1>Section 1.2</h1>
+              </div>
+              <div class="slide">
+                <h1>Section 1.3</h1>
               </div>
             </div>
-            <div class="section">
+            <div class="section" data-anchor="secondPage">
               <div class="slide">
+                <img src="img/deco1800-logo.png" alt="deco1800 project logo">
                 <h1>Section 2.1</h1>
               </div>
               <div class="slide">
@@ -223,14 +223,13 @@
                 <h1>Section 2.3</h1>
               </div>
             </div>
-            <div class="section">
+            <div class="section" data-anchor="thirdPage">
               <h1>Section 3</h1>
             </div>
-            <div class="section">
+            <div class="section" data-anchor="forthPage">
               <h1>Section 4</h1>
             </div>
           </div>
-
           <script type="text/javascript" src="examples.js"></script>
 
         </div>
