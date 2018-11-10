@@ -48,11 +48,12 @@ img {
 
 .fp-controlArrow.fp-prev {
   border-color: transparent hsl(0, 0%, 71%) transparent transparent;
+  margin-left: -15px;
 }
 
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent hsl(0, 0%, 71%);
-  margin-right: 100px;
+  margin-right: 13.5%;
 }
 
 /*css for the footer*/
