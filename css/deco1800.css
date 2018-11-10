@@ -1,0 +1,53 @@
+body {
+  font-family: 'Love Ya Like A Sister', cursive;
+  background-color: hsl(0, 0%, 98%);
+  /*grey color in bulma framework*/
+}
+
+.logo {
+  color: white !important;
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 0.1px !important;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(0, 0%, 50%);
+}
+
+/*css for header and its content*/
+aside {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px !important;
+  font-weight: bold !important;
+  color: hsl(0, 0%, 7%) !important;
+}
+
+.to-the-right {
+  margin-top: 50px !important;
+}
+
+.parta-color {
+  background-color: hsl(0, 0%, 98%) !important;
+}
+
+.parta-logo {}
+
+/*css for the footer*/
+.footer-fixed {
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: white;
+  text-align: center;
+}
