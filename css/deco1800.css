@@ -21,6 +21,7 @@ p {
 }
 
 /*css for header and its content*/
+
 h1 {
   font-size: 28px !important;
   font-weight: 600 !important;
@@ -33,10 +34,18 @@ img {
 }
 
 .has-same-height {
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /*css for section1*/
+
+@media screen and (min-width:600px) and (max-width:1219px) {
+  #mycontent {
+    display: block;
+  }
+}
+
 .fp-controlArrow.fp-prev {
   border-color: transparent hsl(0, 0%, 71%) transparent transparent;
   margin-left: 40px;
@@ -44,10 +53,11 @@ img {
 
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent hsl(0, 0%, 71%);
-  margin-right: 40px;
+  margin-right: 100px;
 }
 
 /*css for the footer*/
+
 .footer-fixed {
   text-align: center;
   margin-top: 30px;
