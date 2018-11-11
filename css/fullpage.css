@@ -8,8 +8,8 @@
  *
  * Copyright (C) 2018 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo
  */
-html.fp-enabled,
-.fp-enabled body {
+
+html.fp-enabled, .fp-enabled body {
   margin-top: 0px;
   padding: 0;
   overflow: visible;
@@ -154,15 +154,13 @@ html.fp-enabled,
   top: 17px;
 }
 
-#fp-nav ul,
-.fp-slidesNav ul {
+#fp-nav ul, .fp-slidesNav ul {
   margin-top: 20px;
-  margin-bottom: 2%;
+  margin-bottom: 0;
   padding: 0;
 }
 
-#fp-nav ul li,
-.fp-slidesNav ul li {
+#fp-nav ul li, .fp-slidesNav ul li {
   display: block;
   width: 14px;
   height: 13px;
@@ -174,8 +172,7 @@ html.fp-enabled,
   display: inline-block;
 }
 
-#fp-nav ul li a,
-.fp-slidesNav ul li a {
+#fp-nav ul li a, .fp-slidesNav ul li a {
   display: block;
   position: relative;
   z-index: 1;
@@ -185,18 +182,14 @@ html.fp-enabled,
   text-decoration: none;
 }
 
-#fp-nav ul li a.active span,
-.fp-slidesNav ul li a.active span,
-#fp-nav ul li:hover a.active span,
-.fp-slidesNav ul li:hover a.active span {
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
   height: 12px;
   width: 12px;
   margin: -6px 0 0 -6px;
   border-radius: 100%;
 }
 
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
   border-radius: 50%;
   position: absolute;
   z-index: 1;
@@ -213,8 +206,7 @@ html.fp-enabled,
   transition: all 0.1s ease-in-out;
 }
 
-#fp-nav ul li:hover a span,
-.fp-slidesNav ul li:hover a span {
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span {
   width: 10px;
   height: 10px;
   margin: -5px 0px 0px -5px;
@@ -235,8 +227,7 @@ html.fp-enabled,
   cursor: pointer;
 }
 
-#fp-nav ul li:hover .fp-tooltip,
-#fp-nav.fp-show-active a.active+.fp-tooltip {
+#fp-nav ul li:hover .fp-tooltip, #fp-nav.fp-show-active a.active+.fp-tooltip {
   -webkit-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
   width: auto;
@@ -251,19 +242,16 @@ html.fp-enabled,
   left: 20px;
 }
 
-.fp-auto-height.fp-section,
-.fp-auto-height .fp-slide,
-.fp-auto-height .fp-tableCell {
+.fp-auto-height.fp-section, .fp-auto-height .fp-slide, .fp-auto-height .fp-tableCell {
   height: auto !important;
 }
 
-.fp-responsive .fp-auto-height-responsive.fp-section,
-.fp-responsive .fp-auto-height-responsive .fp-slide,
-.fp-responsive .fp-auto-height-responsive .fp-tableCell {
+.fp-responsive .fp-auto-height-responsive.fp-section, .fp-responsive .fp-auto-height-responsive .fp-slide, .fp-responsive .fp-auto-height-responsive .fp-tableCell {
   height: auto !important;
 }
 
 /*Only display content to screen readers*/
+
 .fp-sr-only {
   position: absolute;
   width: 1px;
