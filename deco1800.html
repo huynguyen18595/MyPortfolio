@@ -27,6 +27,7 @@
 
       //initialising fullpage.js in the jQuery way
       $('#fullpage').fullpage({
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'forthPage'],
         sectionsColor: ['hsl(0, 0%, 95%)', 'hsl(0, 0%, 95%)', 'hsl(0, 0%, 95%)', 'hsl(0, 0%, 95%)'],
         paddingTop: '-10px',
         navigation: true,
@@ -106,7 +107,7 @@
   </nav>
   <!-- Header -->
   <section class="section">
-    <div class="columns">
+    <div class="columns inline-block">
       <!-- Left hand side description-->
       <aside class="column is-2  has-same-height ">
         <br>
@@ -120,10 +121,8 @@
         <p>
           <strong>Team:</strong> <br> Steve Nguyen, Shutong Yang, Fenghua Cheng, Sheng Li
         </p>
-        <p>
-          <strong>Role:</strong> <br> Team Leader, web designer, frontend programmer.
-        </p>
-        <br>
+
+
         <div id="actions">
           <a id="moveSectionUp" class="button is-dark is-outlined" href="#">
             <span>
@@ -146,7 +145,7 @@
         </div>
         <br>
         <ul id="menu">
-          <li data-menuanchor="firstPage" class="active"><a href="#firstPage" class="button is-dark is-outlined">Project Part A</a></li>
+          <li data-menuanchor="firstPage"><a href="#firstPage" class="button is-dark is-outlined">Project Part A</a></li>
           <li data-menuanchor="secondPage"><a href="#secondPage" class="button is-dark is-outlined">Project Part B</a></li>
           <li data-menuanchor="thirdPage"><a href="#thirdPage" class="button is-dark is-outlined">Project Part C (Final)</a></li>
           <li data-menuanchor="forthPage"><a href="#forthPage" class="button is-dark is-outlined">Portfolio</a></li>
@@ -240,10 +239,10 @@
               <div class="slide">
                 <div class="tile is-ancestor is-10 box">
                   <div class="tile is-parent is-vertical box ">
-                    <div class="tile is-child is-vertical box">
+                    <div class="tile is-child is-10 box">
                       <img src="img/deco1800-logo.png" alt="logo">
                     </div>
-                    <div class="tile is-child is-vertical box">
+                    <div class="tile is-child box">
                       <h1>Reflection:</h1>
                       <p>
                         In part A, I played the role of a designer and created the basic sketches for the project base on the initial idea of us. <br> After receiving feedback from the teaching team, we see that there are some problems with our project
