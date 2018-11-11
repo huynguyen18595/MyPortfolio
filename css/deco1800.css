@@ -46,8 +46,13 @@ img {
   border: 1px solid hsl(0, 0%, 95%);
 }
 
-.has-same-height {
+.has-same-height1 {
   margin-top: 70px;
+}
+
+.has-same-height .card {
+  height: 400px;
+  overflow: hidden;
 }
 
 /*css for section1*/
