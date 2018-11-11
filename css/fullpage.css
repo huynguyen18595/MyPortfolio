@@ -10,7 +10,7 @@
  */
 html.fp-enabled,
 .fp-enabled body {
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 0;
   overflow: visible;
   /*Avoid flicker on slides transitions for mobile phones #336 */
@@ -156,8 +156,8 @@ html.fp-enabled,
 
 #fp-nav ul,
 .fp-slidesNav ul {
-  margin-top: 10px;
-  margin-bottom: 6%;
+  margin-top: 20px;
+  margin-bottom: 2%;
   padding: 0;
 }
 

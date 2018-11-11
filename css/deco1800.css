@@ -1,7 +1,14 @@
 body {
   font-family: 'Love Ya Like A Sister', cursive;
   background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  padding: 0;
+  height: 100%;
   /*grey color in bulma framework*/
+}
+
+.section {
+  margin-top: -47px;
 }
 
 .logo {
@@ -28,7 +35,6 @@ li {
 }
 
 /*css for header and its content*/
-
 h1 {
   font-size: 28px !important;
   font-weight: 600 !important;
@@ -41,11 +47,10 @@ img {
 }
 
 .has-same-height {
-  margin-top: 0px;
+  margin-top: 70px;
 }
 
 /*css for section1*/
-
 .fp-controlArrow.fp-prev {
   border-color: transparent hsl(0, 0%, 71%) transparent transparent;
   margin-left: -15px;
@@ -57,7 +62,6 @@ img {
 }
 
 /*css for the footer*/
-
 .footer-fixed {
   text-align: center;
   margin-top: 30px;
