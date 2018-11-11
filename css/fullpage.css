@@ -156,7 +156,8 @@ html.fp-enabled,
 
 #fp-nav ul,
 .fp-slidesNav ul {
-  margin-bottom: 7%;
+  margin-top: 10px;
+  margin-bottom: 6%;
   padding: 0;
 }
 
