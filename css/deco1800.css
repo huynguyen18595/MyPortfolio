@@ -35,6 +35,7 @@ li {
 }
 
 /*css for header and its content*/
+
 h1 {
   font-size: 28px !important;
   font-weight: 600 !important;
@@ -47,7 +48,7 @@ img {
 }
 
 .has-same-height1 {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .has-same-height .card {
@@ -56,6 +57,7 @@ img {
 }
 
 /*css for section1*/
+
 .fp-controlArrow.fp-prev {
   border-color: transparent hsl(0, 0%, 71%) transparent transparent;
   margin-left: -15px;
@@ -67,6 +69,7 @@ img {
 }
 
 /*css for the footer*/
+
 .footer-fixed {
   text-align: center;
   margin-top: 30px;
